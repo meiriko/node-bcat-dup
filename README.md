@@ -2,6 +2,7 @@
 A minor addition to [Kessler's](https://github.com/kessler/node-bcat) useful bcat. bcat dup enables the user to choose (by adding the --keepStdout) to show the original input on the console and in the browser at the same time.
 
 =========== original documentation ===========
+
 Pipe to the browser utility, Very useful for log tail fun :)
 
 node-bcat features auto scrolling (with enable/disable), ansi to html coloring (--ansi) and behavior and color customization.
