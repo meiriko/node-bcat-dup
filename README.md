@@ -1,4 +1,4 @@
-# node-bcat
+# node-bcat-dup
 A minor addition to [Kessler's](https://github.com/kessler/node-bcat) useful bcat. bcat dup enables the user to choose (by adding the --keepStdout) to show the original input on the console and in the browser at the same time.
 
 =========== original documentation ===========
