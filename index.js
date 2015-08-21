@@ -35,6 +35,7 @@ var config = rc('bcat', {
 		}
 	},
 	serverTimeout: 0,
+	keepStdout: false,
 	command: undefined
 })
 
@@ -126,6 +127,9 @@ function cat(port) {
 
 		var stream = process.stdin
 
+		if(config.keepStdout){
+			stream.pipe(process.stdout);
+		}
 		if (config.ansi) {
 			contentType = 'text/html'
 			stream = stream.pipe(ansi(config.ansiOptions))
