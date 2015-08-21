@@ -1,6 +1,6 @@
 {
-  "name": "bcat",
-  "version": "1.1.8",
+  "name": "bcat-dup",
+  "version": "1.0.0",
   "description": "A pipe to browser utility",
   "main": "index.js",
   "bin": {
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/kessler/node-bcat"
+    "url": "https://github.com/meiriko/node-bcat-dup"
   },
   "keywords": [
     "pipe",
@@ -19,10 +19,10 @@
     "cat",
     "bcat"
   ],
-  "author": "Yaniv Kessler",
+  "author": "Meir Shahar",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/kessler/node-bcat/issues"
+    "url": "https://github.com/meiriko/node-bcat-dup/issues"
   },
   "dependencies": {
     "ansi-html-stream": "0.0.2",
