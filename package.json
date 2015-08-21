@@ -1,6 +1,6 @@
 {
   "name": "bcat-dup",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A pipe to browser utility",
   "main": "index.js",
   "bin": {
