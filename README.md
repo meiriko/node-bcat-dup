@@ -1,4 +1,7 @@
 # node-bcat
+A minor addition to [Kessler's](https://github.com/kessler/node-bcat) useful bcat. bcat dup enables the user to choose (by adding the --keepStdout) to show the original input on the console and in the browser at the same time.
+
+=========== original documentation ===========
 Pipe to the browser utility, Very useful for log tail fun :)
 
 node-bcat features auto scrolling (with enable/disable), ansi to html coloring (--ansi) and behavior and color customization.
@@ -43,6 +46,7 @@ then
  --ansiOptions            override replacement of ansi black color
  --scrollDownInterval     interval to execute javascript scroll down   [default: 1000 (ms)]
  --serverTimeout          http://nodejs.org/api/http.html#http_server_timeout  [default: 0 (no timeout)]
+--keepStdout'			  keep original input on stdout (i.e. duplicate output to console and browser [default: false (show only in browser)]']
 ```
 - _An available port between 8080 - 8181 will be automatically picked if --port is not specified_
 - _ansi feature is on by default_
