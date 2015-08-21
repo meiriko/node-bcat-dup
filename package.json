@@ -4,7 +4,7 @@
   "description": "A pipe to browser utility",
   "main": "index.js",
   "bin": {
-    "bcat": "index.js"
+    "bcat-dup": "index.js"
   },
   "scripts": {
     "test": "mocha"
@@ -17,7 +17,8 @@
     "pipe",
     "browser",
     "cat",
-    "bcat"
+    "bcat",
+    "bcat-dup"
   ],
   "author": "Meir Shahar",
   "license": "MIT",
@@ -34,6 +35,6 @@
     "text-table": "~0.2.0"
   },
   "devDependencies": {
-    "eyes": "~0.1.8"
+    "eyes": "^0.1.8"
   }
 }
